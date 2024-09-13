@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
-}
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
 body {
     background-color: #f1f1f1;
     display: flex;
@@ -11,7 +12,7 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: white;
 }
 .main {
     display: flex;
@@ -20,19 +21,73 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
     padding: 10px 20px 0px;
+    border-right: solid 2px rgb(76, 151, 112);
 }
+
+ul {
+    list-style-type: none;
+    padding-top: 60px;
+}
+
+ul li {
+    padding-bottom: 15px;
+}
+
+ul a {
+    text-decoration: none;
+}
+
 .header {
-    background-color: rgb(5, 108, 108);
     min-height: 150px;
+    text-align: center;
+    border-bottom: solid 2px rgb(76, 151, 112);
 }
+
+.header img {
+    padding: 15px;
+}
+
 .content {
-    background-color: white;
     min-height: 300px;
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    min-height: 30px;
+    text-align: center;
 }
+.footer p {
+    margin: 2px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table td{
+    border: 1px solid gray;
+    padding: 5px;
+    
+}
+
+table thead {
+    font-weight: bold;
+}
+
+table tbody tr:nth-child(even) {
+	background-color:#64ab4c;
+	}
+
+.endereço iframe {
+    width: 400px;
+    height: 300px;
+    padding-bottom: 50px;
+}
+
+label {
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+    padding: 5px;
+}
+
